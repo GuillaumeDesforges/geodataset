@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "geodataset"
+version = "0.1.0"
+description = ""
+authors = ["Guillaume Desforges <guillaume.desforges.pro@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+requests = "^2.25.1"
+python-dotenv = "^0.18.0"
+Shapely = "^1.7.1"
+geojson = "^2.5.0"
+furl = "^2.1.2"
+tqdm = "^4.61.1"
+numpy = "^1.21.0"
+pandas = "^1.2.5"
+
+[tool.poetry.dev-dependencies]
+black = "^21.6b0"
+mypy = "^0.910"
+flake8 = "^3.9.2"
+types-requests = "^2.25.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

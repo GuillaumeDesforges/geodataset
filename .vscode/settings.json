@@ -1,0 +1,6 @@
+{
+    "python.formatting.provider": "black",
+    "jupyter.notebookFileRoot": "${workspaceFolder}",
+    "python.linting.mypyEnabled": true,
+    "python.linting.flake8Enabled": true,
+}
